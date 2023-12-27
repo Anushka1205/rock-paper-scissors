@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+body{
+    background-image: url(./assets/bg.png);
+}
+#title{
+    /* border: 2px solid red; */
+    color: rgb(94, 0, 182);
+    font-size: 57px;
+    font-weight: bold;
+    margin: auto;
+    margin-left: 35%;
+    margin-top: 70px;
+    width: 40%;
+}
+#image{
+    /* border: 2px solid red; */
+    height: 480px;
+    width: 510px;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+#play{
+    /* border: 2px solid white; */
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+#play-button{
+    /* border: 2px solid red; */
+    width: 15%;
+    margin-left: 60%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+#logo{
+    height: 40px;
+    width: 40px;
+}
+#score{
+    color: white;
+    /* border: 2px solid white; */
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 90px;
+    font-weight: bold;
+    margin:auto;
+    margin-top: 75px;
+}
+#box{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.boxes{
+    border: 2px solid rgb(237, 171, 27);
+    height: 480px;
+    width: 500px;
+}
+#vs-logo{
+    height: 530px;
+    width: 100px;
+}
+.user{
+    /* border: 2px solid white; */
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+}
+
+#logos{
+    /* border: 2px solid green; */
+    width: 100%;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-around;    
+}
+.images{
+    height: 88px;
+    width: 90px;
+} 
+ #boxes2{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.handsign{
+    height: 65%;
+    /* border: 2px solid red; */
+}
+
+#compImage{
+    height: 65%;
+}
+.score{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.score div{
+    font-size: 50px;
+    text-align: center;
+}
+.score button{
+    font-size: 40px;
+    background-color: #FFC436;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+}

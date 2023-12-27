@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <div id="score">
+            <p id="userScore">0</p>
+            <p>-</p>
+            <p id="compScore">0</p>
+        </div>
+        <div id="box">
+            <div id="boxes1" class="boxes">
+                <div id="users">
+                    <p class="user">You</p>
+                </div>
+
+                <div class="handsign" id="sign"></div>
+
+                <div id="logos">
+                    <img class="images" id="rock" src="./assets/rock-logo.png" alt="Rock-logo">
+                    <img class="images" id="paper" src="./assets/paper-logo.png" alt="Paper-logo">
+                    <img class="images" id="scissors" src="./assets/scissors-logo.png" alt="Scissors-logo">
+                </div>
+            </div>
+            <div>
+                <img id="vs-logo" src="./assets/vs.png" alt="v/s">
+            </div>
+            <div class="boxes boxes2" >
+                <p class="user">Comp</p>
+                <div id="compImage"></div>
+            </div>
+        </div>
+    </div>
+    <div  class="score" id="result">
+        <div id="scoresee"></div>
+        <button onclick="playAgain()">Play Again</button>
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>
